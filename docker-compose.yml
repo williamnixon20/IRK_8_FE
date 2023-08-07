@@ -1,0 +1,13 @@
+version: '3'
+services:
+  app_fe:
+    build:
+      context: .
+    ports:
+      - "3000:3000"  # Map the host port 8080 to the container port 8080
+    networks:
+      - my-network
+
+networks:
+  my-network:
+    name: my-network
