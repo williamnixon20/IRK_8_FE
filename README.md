@@ -1,70 +1,22 @@
-# Getting Started with Create React App
+# Course Selector - Memaksimalkan IP dengan Dynamic Programming
+## Deskripsi Program
+Course Selector adalah sebuah program yang menggunakan teknik dynamic programming untuk membantu mahasiswa dalam memilih mata kuliah yang akan diambil di semester ini dengan tujuan memaksimalkan Indeks Prestasi (IP) mereka. Program ini akan memberikan rekomendasi kombinasi mata kuliah yang memungkinkan mahasiswa mendapatkan IP terbaik, sambil juga mempertimbangkan Beban SKS (Satuan Kredit Semester) yang dapat diambil sebanyak mungkin. Mata kuliah yang dipilih harus memenuhi syarat minimum semesternya dan diajarkan di fakultas yang sama.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Sebagai contoh, seorang mahasiswa dari program studi Teknik Informatika dapat mengambil mata kuliah yang diajarkan di fakultas yang relevan seperti Teknik Elektro, STEI, dan lainnya.
 
-## Available Scripts
+## Teknologi dan Framework
+Program ini dibangun dengan menggunakan teknologi dan framework berikut:
 
-In the project directory, you can run:
+Backend: Bahasa pemrograman GO digunakan sebagai bahasa utama untuk mengembangkan bagian backend dari aplikasi. Database MySQL digunakan untuk menyimpan informasi mengenai mata kuliah, syarat minimum, dan informasi lain yang diperlukan.
 
-### `npm start`
+Frontend: Antarmuka pengguna dibangun menggunakan framework React, yang memberikan pengalaman pengguna yang interaktif dan responsif.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Pengujian
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Cara menjalankan aplikasi (docker-compose up -d)
+docker-compose up -d
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Referensi Belajar
+1. https://legacy.reactjs.org/tutorial/tutorial.html
+2. Youtube, Imre Nagi, Docker

@@ -348,7 +348,7 @@ function App() {
           <input
             type="text"
             value={newMajor.Major.join(',')}
-            onChange={(e) => setNewMajor({ ...newMajor, Major: e.target.value.split(', ') })}
+            onChange={(e) => setNewMajor({ ...newMajor, Major: e.target.value.split(',') })}
           />
         </div>
         <button
